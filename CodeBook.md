@@ -2,20 +2,20 @@
 
 ## Variables
 
-Naming Convention Note: for these variables, naming conventions may include the following phrases
-1. 'time': indicates time domain signals captured at a constant rate of 50 Hz
-2. 'frequency': indicates frequency domain signals captured 
-3. 'accelerometer': indicates that the signals came from the accelerometer
-4. 'gyroscope': indicates that the signals came from the gyroscope
-5. 'body': indicates body acceleration signals
-6. 'gravity': indicates gravity acceleration signals
-7. 'magnitude': indicates the magnitude of these three-dimensional signals, calculated using the Euclidean norm 
-8. 'jerk': indicates cases where the body linear acceleration and angular velocity were derived in time to obtain Jerk signals
-9. 'standarddeviation': indicates that the standard deviation variable was estimated from this signal
-10. 'mean': indicates that the mean variable was estimated from this signal
-11. 'x': indicates axial signal in the x direction
-12. 'y': indicates axial signal in the y direction
-13. 'z': indicates axial signal in the z direction
+Naming Convention Note: for these variables, naming conventions may include the following phrases:
+  * 'time': indicates time domain signals captured at a constant rate of 50 Hz
+  *  'frequency': indicates frequency domain signals captured 
+  *  'accelerometer': indicates that the signals came from the accelerometer
+  *  'gyroscope': indicates that the signals came from the gyroscope
+  *  'body': indicates body acceleration signals
+  *  'gravity': indicates gravity acceleration signals
+  *  'magnitude': indicates the magnitude of these three-dimensional signals, calculated using the Euclidean norm 
+  *  'jerk': indicates cases where the body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+  *  'standarddeviation': indicates that the standard deviation variable was estimated from this signal
+  *  'mean': indicates that the mean variable was estimated from this signal
+  *  'x': indicates axial signal in the x direction
+  *  'y': indicates axial signal in the y direction
+  *  'z': indicates axial signal in the z direction
 
 ### The Variables Part I:
 - "activity": values can be WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
