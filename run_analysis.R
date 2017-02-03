@@ -76,7 +76,6 @@ run_analysis <- function(){
   ## the following is just to sort the data nicely by activity and then by subject
   newData[,2]<-as.numeric(newData[,2])
   arrange(newData, activity, subject)
-  head(newData)
   write.table(newData, file="./tidy_data_means.txt", row.names = FALSE)
 }
 
