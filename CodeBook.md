@@ -1,4 +1,4 @@
-###  CODE BOOK
+#  CODE BOOK
 
 ## Variables
 
@@ -17,11 +17,11 @@ Naming Convention Note: for these variables, naming conventions may include the 
 12. 'y': indicates axial signal in the y direction
 13. 'z': indicates axial signal in the z direction
 
-# The Variables Partt I:
+### The Variables Part I:
 - "activity": values can be WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 - "subject": values can be integers 1-30 identifying which subject performed the given experiment.
 
-# The Variables Part II:
+### The Variables Part II:
 The mean of the following variables were taken and displayed in the tidy data set. The understanding of each variable is deciphered through the naming convention notes above.
 - "timebodyaccelerometermeanx"
 - "timebodyaccelerometermeany" 
@@ -90,7 +90,7 @@ The mean of the following variables were taken and displayed in the tidy data se
 - "frequencybodygyroscopejerkmagnitudemean" 
 - "frequencybodygyroscopejerkmagnitudestandarddeviation"
 
-### STUDY DESIGN
+## STUDY DESIGN
 Below are the steps taken by the R code to analyze the data set as provided by the Samsung zip file:
 1. Prior to running run_analysis.R, the understanding is that the user has installed packages plyr, reshape2, and dplyr.
 2. The libraries for plyr, reshape2, and dplyr are loaded into run_analysis.R
