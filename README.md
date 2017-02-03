@@ -24,4 +24,4 @@ Below are the steps taken by the R code to analyze the data set as provided by t
   7. Extracts only the measurements on the mean and standard deviation for each measurement.
   8. Uses descriptive activity names to name the activities in the data set by renaming the data set's numeric factors according to activity labels in the "activity_labels.txt" file
   9. Modifies the variable names using helper function "clean variables" in order to adhere to tidy data principles
-  10. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. This is exported as a file called "tidy_data_means.txt"
+  10. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. This is exported as a file called "tidy_data_means.txt." To read this data set in, please use read.tables("tidy_data_means.txt", header=TRUE).
